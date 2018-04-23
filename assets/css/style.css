@@ -195,24 +195,28 @@ img { max-width: 100%; }
 
 /***** Top content *****/
 
+
 .top-content {
-    padding: 210px 0;
+	padding: 210px 0;
 }
 
 .top-content .text {
-	color: #fff;
+	color: black;
+
 }
 
 .top-content .text h1 {
 	margin-top: 25px;
-	color: #fff;
+	color: black;
 }
 
 .top-content .description {
 	margin: 30px 0 10px 0;
 }
 
-.top-content .description p { opacity: 0.8; }
+.top-content .description p { 
+	opacity: 0.8; 
+}
 
 .top-content .top-big-link {
 	margin-top: 45px;
@@ -317,8 +321,12 @@ img { max-width: 100%; }
 
 /***** Call to action ** EMAIL ME ***/
 
+.call-to-action {
+	color: black;
+}
+
 .call-to-action-container .section-bottom-button {
-	padding-top: 30px;
+	padding-top: 30px; 
 }
 
 
@@ -374,6 +382,15 @@ img { max-width: 100%; }
 
 /***** Testimonials ** RESUME ***/
 
+/* .testimonials {
+	background-color: #ffb24b;
+}
+
+.col-md-10 {
+	background-color: #ffb24b;
+	color: black;
+} */
+
 .testimonials-container {
 	padding-bottom: 70px;
 }
@@ -403,7 +420,7 @@ img { max-width: 100%; }
 .testimonial-list .nav-tabs {
 	margin-top: 45px;
     border: 0;
-    justify-content: center;
+	justify-content: center;
 }
 
 .testimonial-list .nav-tabs li {
